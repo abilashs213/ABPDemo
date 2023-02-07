@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "ABP.Demo.SaasService.HttpApi": {
+      "path": "src/ABP.Demo.SaasService.HttpApi/ABP.Demo.SaasService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.SaasService.Application.Contracts": {
+      "path": "src/ABP.Demo.SaasService.Application.Contracts/ABP.Demo.SaasService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.SaasService.Application": {
+      "path": "src/ABP.Demo.SaasService.Application/ABP.Demo.SaasService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.SaasService.Domain.Shared": {
+      "path": "src/ABP.Demo.SaasService.Domain.Shared/ABP.Demo.SaasService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.SaasService.Domain": {
+      "path": "src/ABP.Demo.SaasService.Domain/ABP.Demo.SaasService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.SaasService.EntityFrameworkCore": {
+      "path": "src/ABP.Demo.SaasService.EntityFrameworkCore/ABP.Demo.SaasService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.SaasService.HttpApi.Client": {
+      "path": "src/ABP.Demo.SaasService.HttpApi.Client/ABP.Demo.SaasService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.SaasService.HttpApi.Host": {
+      "path": "src/ABP.Demo.SaasService.HttpApi.Host/ABP.Demo.SaasService.HttpApi.Host.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.SaasService.TestBase": {
+      "path": "test/ABP.Demo.SaasService.TestBase/ABP.Demo.SaasService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.SaasService.Domain.Tests": {
+      "path": "test/ABP.Demo.SaasService.Domain.Tests/ABP.Demo.SaasService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.SaasService.EntityFrameworkCore.Tests": {
+      "path": "test/ABP.Demo.SaasService.EntityFrameworkCore.Tests/ABP.Demo.SaasService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.MicroserviceName.Application.Tests": {
+      "path": "test/ABP.Demo.SaasService.Application.Tests/ABP.Demo.SaasService.Application.Tests.abppkg.json",
+      "folder": "test"
+    }
+  }
+}

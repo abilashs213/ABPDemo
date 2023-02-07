@@ -1,0 +1,24 @@
+config:
+  selfUrl: # 
+  gatewayUrl: # 
+  authServer:
+    authority: # http://demo-st-authserver
+    requireHttpsMetadata: # "false"
+    isOnK8s: # "true"
+    metaAddress: # http://demo-st-authserver
+  dotnetEnv: # 
+  redisHost: #
+  rabbitmqHost: #
+  elasticsearchUrl: #
+  stringEncryptionDefaultPassPhrase: gsKnGZ041HLL4IM8
+
+ingress:
+  host: # demo-st-blazor-server
+  tlsSecret: demo-tls
+
+image:
+  repository: abp/demo-app-blazor-server
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}   

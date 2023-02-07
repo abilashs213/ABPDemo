@@ -1,0 +1,44 @@
+config:
+  selfUrl: # https://demo-st-gateway-web
+  corsOrigins: # https://demo-st-angular
+  globalConfigurationBaseUrl: # http://demo-st-gateway-web
+  authServer:
+    authority: # http://demo-st-authserver
+    requireHttpsMetadata: # "false"
+    swaggerClientId: # WebGateway_Swagger
+  dotnetEnv: # 
+  redisHost: #
+  rabbitmqHost: #
+  elasticsearchUrl: #
+  
+reRoutes:
+  accountService:
+    schema: # http
+    host: # demo-st-authserver
+    port: # 80
+  identityService:
+    schema: # http
+    host: # demo-st-identity
+    port: # 80
+  administrationService:
+    schema: # http
+    host: # demo-st-administration
+    port: # 80
+  saasService:
+    schema: # http
+    host: # demo-st-saas
+    port: # 80
+  productService:
+    schema: # http
+    host: # demo-st-saas
+    port: # 80  
+ingress:
+  host: # demo-st-gateway-web
+  tlsSecret: demo-tls
+
+image:
+  repository: abp/demo-gateway-web
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}

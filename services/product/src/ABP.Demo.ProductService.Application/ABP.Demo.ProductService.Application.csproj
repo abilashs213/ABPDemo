@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>ABP.Demo.ProductService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Ddd.Application" Version="7.0.1" />
+    <PackageReference Include="Volo.Abp.AutoMapper" Version="7.0.1" />
+    <ProjectReference Include="..\ABP.Demo.ProductService.Application.Contracts\ABP.Demo.ProductService.Application.Contracts.csproj" />
+    <ProjectReference Include="..\ABP.Demo.ProductService.Domain\ABP.Demo.ProductService.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

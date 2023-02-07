@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "ABP.Demo.AdministrationService.HttpApi": {
+      "path": "src/ABP.Demo.AdministrationService.HttpApi/ABP.Demo.AdministrationService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AdministrationService.Application.Contracts": {
+      "path": "src/ABP.Demo.AdministrationService.Application.Contracts/ABP.Demo.AdministrationService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AdministrationService.Application": {
+      "path": "src/ABP.Demo.AdministrationService.Application/ABP.Demo.AdministrationService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AdministrationService.Domain.Shared": {
+      "path": "src/ABP.Demo.AdministrationService.Domain.Shared/ABP.Demo.AdministrationService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AdministrationService.Domain": {
+      "path": "src/ABP.Demo.AdministrationService.Domain/ABP.Demo.AdministrationService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AdministrationService.EntityFrameworkCore": {
+      "path": "src/ABP.Demo.AdministrationService.EntityFrameworkCore/ABP.Demo.AdministrationService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AdministrationService.HttpApi.Client": {
+      "path": "src/ABP.Demo.AdministrationService.HttpApi.Client/ABP.Demo.AdministrationService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AdministrationService.HttpApi.Host": {
+      "path": "src/ABP.Demo.AdministrationService.HttpApi.Host/ABP.Demo.AdministrationService.HttpApi.Host.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AdministrationService.TestBase": {
+      "path": "test/ABP.Demo.AdministrationService.TestBase/ABP.Demo.AdministrationService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.AdministrationService.Domain.Tests": {
+      "path": "test/ABP.Demo.AdministrationService.Domain.Tests/ABP.Demo.AdministrationService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.AdministrationService.EntityFrameworkCore.Tests": {
+      "path": "test/ABP.Demo.AdministrationService.EntityFrameworkCore.Tests/ABP.Demo.AdministrationService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.AdministrationService.Application.Tests": {
+      "path": "test/ABP.Demo.AdministrationService.Application.Tests/ABP.Demo.AdministrationService.Application.Tests.abppkg.json",
+      "folder": "test"
+    }
+  }
+}

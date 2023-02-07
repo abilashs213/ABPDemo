@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ABP.Demo.Shared.Hosting.AspNetCore\ABP.Demo.Shared.Hosting.AspNetCore.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.DataProtection.StackExchangeRedis" Version="7.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.0" />
+        <PackageReference Include="DistributedLock.Redis" Version="1.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.AspNetCore.MultiTenancy" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.EventBus.RabbitMQ" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.BackgroundJobs.RabbitMQ" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.Caching.StackExchangeRedis" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.DistributedLocking" Version="7.0.1" />
+<!--        Un-comment if you are using mongodb in any microservice -->
+<!--        <ProjectReference Include="..\..\..\..\..\..\abp\framework\src\Volo.Abp.MongoDB\Volo.Abp.MongoDB.csproj" />-->
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\services\administration\src\ABP.Demo.AdministrationService.EntityFrameworkCore\ABP.Demo.AdministrationService.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\services\saas\src\ABP.Demo.SaasService.EntityFrameworkCore\ABP.Demo.SaasService.EntityFrameworkCore.csproj" />
+    </ItemGroup>
+
+</Project>

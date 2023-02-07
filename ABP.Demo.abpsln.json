@@ -1,0 +1,54 @@
+{
+  "folders": {
+    "items": {
+      "apps": {},
+      "gateways": {},
+      "services": {}
+    }
+  },
+  "modules": {
+    "ABP.Demo": {
+      "path": "ABP.Demo.abpmdl.json"
+    },
+    "ABP.Demo.AuthServer": {
+      "path": "apps/auth-server/ABP.Demo.AuthServer.abpmdl.json",
+      "folder": "apps"
+    },
+    "ABP.Demo.Blazor": {
+      "path": "apps/blazor/ABP.Demo.Blazor.abpmdl.json",
+      "folder": "apps"
+    },
+    "ABP.Demo.PublicWeb": {
+      "path": "apps/public-web/ABP.Demo.PublicWeb.abpmdl.json",
+      "folder": "apps"
+    },
+    "ABP.Demo.Web": {
+      "path": "apps/web/ABP.Demo.Web.abpmdl.json",
+      "folder": "apps"
+    },
+    "ABP.Demo.WebGateway": {
+      "path": "gateways/web/ABP.Demo.WebGateway.abpmdl.json",
+      "folder": "gateways"
+    },
+    "ABP.Demo.PublicWebGateway": {
+      "path": "gateways/web-public/ABP.Demo.PublicWebGateway.abpmdl.json",
+      "folder": "gateways"
+    },
+    "ABP.Demo.AdministrationService": {
+      "path": "services/administration/ABP.Demo.AdministrationService.abpmdl.json",
+      "folder": "services"
+    },
+    "ABP.Demo.IdentityService": {
+      "path": "services/identity/ABP.Demo.IdentityService.abpmdl.json",
+      "folder": "services"
+    },
+    "ABP.Demo.ProductService": {
+      "path": "services/product/ABP.Demo.ProductService.abpmdl.json",
+      "folder": "services"
+    },
+    "ABP.Demo.SaasService": {
+      "path": "services/saas/ABP.Demo.SaasService.abpmdl.json",
+      "folder": "services"
+    }
+  }
+}

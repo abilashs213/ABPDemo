@@ -1,0 +1,13 @@
+{
+  "folders": {
+    "items": {
+      "src": {}
+    }
+  },
+  "packages": {
+    "ABP.Demo.AuthServer": {
+      "path": "src/ABP.Demo.AuthServer/ABP.Demo.AuthServer.abppkg.json",
+      "folder": "src"
+    }
+  }
+}

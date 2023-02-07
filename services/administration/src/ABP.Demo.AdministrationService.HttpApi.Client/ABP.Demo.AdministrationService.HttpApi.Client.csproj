@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>ABP.Demo.AdministrationService</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.PermissionManagement.HttpApi.Client" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.FeatureManagement.HttpApi.Client" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.SettingManagement.HttpApi.Client" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.AuditLogging.HttpApi.Client" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.LanguageManagement.HttpApi.Client" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.TextTemplateManagement.HttpApi.Client" Version="7.0.1" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\ABP.Demo.AdministrationService.Application.Contracts\ABP.Demo.AdministrationService.Application.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>

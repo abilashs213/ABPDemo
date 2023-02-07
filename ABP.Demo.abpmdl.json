@@ -1,0 +1,127 @@
+{
+  "folders": {
+    "items": {
+      "services": {
+        "items": {
+          "administration": {
+            "items": {
+              "src": {}
+            }
+          },
+          "identity": {
+            "items": {
+              "src": {}
+            }
+          },
+          "product": {
+            "items": {
+              "src": {}
+            }
+          },
+          "saas": {
+            "items": {
+              "src": {}
+            }
+          }
+        }
+      },
+      "gateways": {
+        "items": {
+          "web": {
+            "items": {
+              "src": {}
+            }
+          },
+          "web-public": {
+            "items": {
+              "src": {}
+            }
+          }
+        }
+      },
+      "apps": {
+        "items": {
+          "auth-server": {
+            "items": {
+              "src": {}
+            }
+          },
+          "blazor": {
+            "items": {
+              "src": {}
+            }
+          },
+          "public-web": {
+            "items": {
+              "src": {}
+            }
+          },
+          "web": {
+            "items": {
+              "src": {}
+            }
+          }
+        }
+      },
+      "shared": {}
+    }
+  },
+  "packages": {
+    "ABP.Demo.AdministrationService.HttpApi.Host": {
+      "path": "services/administration/src/ABP.Demo.AdministrationService.HttpApi.Host/ABP.Demo.AdministrationService.HttpApi.Host.abppkg.json",
+      "folder": "services/administration/src"
+    },
+    "ABP.Demo.IdentityService.HttpApi.Host": {
+      "path": "services/identity/src/ABP.Demo.IdentityService.HttpApi.Host/ABP.Demo.IdentityService.HttpApi.Host.abppkg.json",
+      "folder": "services/identity/src"
+    },
+    "ABP.Demo.ProductService.HttpApi.Host": {
+      "path": "services/product/src/ABP.Demo.ProductService.HttpApi.Host/ABP.Demo.ProductService.HttpApi.Host.abppkg.json",
+      "folder": "services/product/src"
+    },
+    "ABP.Demo.SaasService.HttpApi.Host": {
+      "path": "services/saas/src/ABP.Demo.SaasService.HttpApi.Host/ABP.Demo.SaasService.HttpApi.Host.abppkg.json",
+      "folder": "services/saas/src"
+    },
+    "ABP.Demo.WebGateway": {
+      "path": "gateways/web/src/ABP.Demo.WebGateway/ABP.Demo.WebGateway.abppkg.json",
+      "folder": "gateways/web/src"
+    },
+    "ABP.Demo.PublicWebGateway": {
+      "path": "gateways/web-public/src/ABP.Demo.PublicWebGateway/ABP.Demo.PublicWebGateway.abppkg.json",
+      "folder": "gateways/web-public/src"
+    },
+    "ABP.Demo.AuthServer": {
+      "path": "apps/auth-server/src/ABP.Demo.AuthServer/ABP.Demo.AuthServer.abppkg.json",
+      "folder": "apps/auth-server/src"
+    },
+    "ABP.Demo.PublicWeb": {
+      "path": "apps/public-web/src/ABP.Demo.PublicWeb/ABP.Demo.PublicWeb.abppkg.json",
+      "folder": "apps/public-web/src"
+    },
+    "ABP.Demo.DbMigrator": {
+      "path": "shared/ABP.Demo.DbMigrator/ABP.Demo.DbMigrator.abppkg.json",
+      "folder": "shared"
+    },
+    "ABP.Demo.Shared.Hosting.AspNetCore": {
+      "path": "shared/ABP.Demo.Shared.Hosting.AspNetCore/ABP.Demo.Shared.Hosting.AspNetCore.abppkg.json",
+      "folder": "shared"
+    },
+    "ABP.Demo.Shared.Hosting.Microservices": {
+      "path": "shared/ABP.Demo.Shared.Hosting.Microservices/ABP.Demo.Shared.Hosting.Microservices.abppkg.json",
+      "folder": "shared"
+    },
+    "ABP.Demo.Shared.Localization": {
+      "path": "shared/ABP.Demo.Shared.Localization/ABP.Demo.Shared.Localization.abppkg.json",
+      "folder": "shared"
+    },
+    "ABP.Demo.Shared.Hosting.Gateways": {
+      "path": "shared/ABP.Demo.Shared.Hosting.Gateways/ABP.Demo.Shared.Hosting.Gateways.abppkg.json",
+      "folder": "shared"
+    },
+    "ABP.Demo.Shared.Hosting": {
+      "path": "shared/ABP.Demo.Shared.Hosting/ABP.Demo.Shared.Hosting.abppkg.json",
+      "folder": "shared"
+    }
+  }
+}

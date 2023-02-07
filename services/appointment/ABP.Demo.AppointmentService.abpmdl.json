@@ -1,0 +1,58 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "ABP.Demo.AppointmentService.Domain.Shared": {
+      "path": "src/ABP.Demo.AppointmentService.Domain.Shared/ABP.Demo.AppointmentService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AppointmentService.Application.Contracts": {
+      "path": "src/ABP.Demo.AppointmentService.Application.Contracts/ABP.Demo.AppointmentService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AppointmentService.Domain": {
+      "path": "src/ABP.Demo.AppointmentService.Domain/ABP.Demo.AppointmentService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AppointmentService.Application": {
+      "path": "src/ABP.Demo.AppointmentService.Application/ABP.Demo.AppointmentService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AppointmentService.EntityFrameworkCore": {
+      "path": "src/ABP.Demo.AppointmentService.EntityFrameworkCore/ABP.Demo.AppointmentService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AppointmentService.HttpApi": {
+      "path": "src/ABP.Demo.AppointmentService.HttpApi/ABP.Demo.AppointmentService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AppointmentService.HttpApi.Client": {
+      "path": "src/ABP.Demo.AppointmentService.HttpApi.Client/ABP.Demo.AppointmentService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AppointmentService.HttpApi.Host": {
+      "path": "src/ABP.Demo.AppointmentService.HttpApi.Host/ABP.Demo.AppointmentService.HttpApi.Host.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.AppointmentService.Domain.Tests": {
+      "path": "test/ABP.Demo.AppointmentService.Domain.Tests/ABP.Demo.AppointmentService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.AppointmentService.EntityFrameworkCore.Tests": {
+      "path": "test/ABP.Demo.AppointmentService.EntityFrameworkCore.Tests/ABP.Demo.AppointmentService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.AppointmentService.TestBase": {
+      "path": "test/ABP.Demo.AppointmentService.TestBase/ABP.Demo.AppointmentService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.AppointmentService.Application.Tests": {
+      "path": "test/ABP.Demo.AppointmentService.Application.Tests/ABP.Demo.AppointmentService.Application.Tests.abppkg.json",
+      "folder": "test"
+    }
+  }
+}

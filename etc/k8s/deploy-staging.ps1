@@ -1,0 +1,1 @@
+helm upgrade --install demo-st demo --namespace demo --create-namespace

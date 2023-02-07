@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ABP.Demo.Shared.Hosting\ABP.Demo.Shared.Hosting.csproj" />
+        <ProjectReference Include="..\..\services\administration\src\ABP.Demo.AdministrationService.Application.Contracts\ABP.Demo.AdministrationService.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\services\administration\src\ABP.Demo.AdministrationService.EntityFrameworkCore\ABP.Demo.AdministrationService.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\services\identity\src\ABP.Demo.IdentityService.EntityFrameworkCore\ABP.Demo.IdentityService.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\services\identity\src\ABP.Demo.IdentityService.Application.Contracts\ABP.Demo.IdentityService.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\services\saas\src\ABP.Demo.SaasService.EntityFrameworkCore\ABP.Demo.SaasService.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\services\saas\src\ABP.Demo.SaasService.Application.Contracts\ABP.Demo.SaasService.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\services\product\src\ABP.Demo.ProductService.Application.Contracts\ABP.Demo.ProductService.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\services\product\src\ABP.Demo.ProductService.EntityFrameworkCore\ABP.Demo.ProductService.EntityFrameworkCore.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Remove="Logs\**" />
+        <Content Remove="Logs\**" />
+        <EmbeddedResource Remove="Logs\**" />
+        <None Remove="Logs\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="appsettings.json" />
+        <Content Include="appsettings.json">
+            <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Content>
+        <None Remove="appsettings.secrets.json" />
+    <Content Include="appsettings.secrets.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    </ItemGroup>
+
+</Project>

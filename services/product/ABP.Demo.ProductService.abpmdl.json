@@ -1,0 +1,62 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "ABP.Demo.ProductService.Domain.Shared": {
+      "path": "src/ABP.Demo.ProductService.Domain.Shared/ABP.Demo.ProductService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.ProductService.Domain": {
+      "path": "src/ABP.Demo.ProductService.Domain/ABP.Demo.ProductService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.ProductService.Application.Contracts": {
+      "path": "src/ABP.Demo.ProductService.Application.Contracts/ABP.Demo.ProductService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.ProductService.Application": {
+      "path": "src/ABP.Demo.ProductService.Application/ABP.Demo.ProductService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.ProductService.EntityFrameworkCore": {
+      "path": "src/ABP.Demo.ProductService.EntityFrameworkCore/ABP.Demo.ProductService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.ProductService.HttpApi": {
+      "path": "src/ABP.Demo.ProductService.HttpApi/ABP.Demo.ProductService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.ProductService.HttpApi.Client": {
+      "path": "src/ABP.Demo.ProductService.HttpApi.Client/ABP.Demo.ProductService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.ProductService.HttpApi.Host": {
+      "path": "src/ABP.Demo.ProductService.HttpApi.Host/ABP.Demo.ProductService.HttpApi.Host.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.ProductService.Web": {
+      "path": "src/ABP.Demo.ProductService.Web/ABP.Demo.ProductService.Web.abppkg.json",
+      "folder": "src"
+    },
+    "ABP.Demo.ProductService.Application.Tests": {
+      "path": "test/ABP.Demo.ProductService.Application.Tests/ABP.Demo.ProductService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.ProductService.Domain.Tests": {
+      "path": "test/ABP.Demo.ProductService.Domain.Tests/ABP.Demo.ProductService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.ProductService.EntityFrameworkCore.Tests": {
+      "path": "test/ABP.Demo.ProductService.EntityFrameworkCore.Tests/ABP.Demo.ProductService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ABP.Demo.ProductService.TestBase": {
+      "path": "test/ABP.Demo.ProductService.TestBase/ABP.Demo.ProductService.TestBase.abppkg.json",
+      "folder": "test"
+    }
+  }
+}

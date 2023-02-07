@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>ABP.Demo.IdentityService</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.Identity.Pro.Domain" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.OpenIddict.Domain" Version="7.0.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\ABP.Demo.IdentityService.Domain.Shared\ABP.Demo.IdentityService.Domain.Shared.csproj" />
+    </ItemGroup>
+
+</Project>

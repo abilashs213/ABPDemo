@@ -1,0 +1,32 @@
+config:
+  selfUrl: # https://demo-st-administration
+  corsOrigins: # https://demo-st-gateway-web,https://demo-st-gateway-public-web
+  connectionStrings:
+    administrationService: #
+    saasService: #
+  authServer:
+    authority: # http://demo-st-authserver
+    requireHttpsMetadata: "false"
+    swaggerClientId: WebGateway_Swagger
+  remoteServices:
+    abpIdentityBaseUrl: #
+    useCurrentToken: "false"
+  dotnetEnv: #
+  redisHost: #
+  rabbitmqHost: #
+  elasticsearchUrl: #
+  stringEncryptionDefaultPassPhrase: gsKnGZ041HLL4IM8
+
+synchedCommunication:
+  authority: # https://demo-st-authserver
+
+ingress:
+  host: # demo-st-administration
+  tlsSecret: demo-tls
+
+image:
+  repository: abp/demo-service-administration
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}

@@ -1,0 +1,32 @@
+config:
+  selfUrl: #
+  corsOrigins: #
+  allowedRedirectUrls: #
+  disablePii: #
+  identityService:
+    connString: # 
+  administrationService:
+    connString: # 
+  saasService:
+    connString: #     
+  authServer:
+    authority: #
+    requireHttpsMetadata: #
+    swaggerClientId: #
+  dotnetEnv: # 
+  redisHost: #
+  rabbitmqHost: #
+  elasticsearchUrl: #
+  stringEncryptionDefaultPassPhrase: gsKnGZ041HLL4IM8
+
+ingress:
+  host: # demo-st-authserver
+  tlsSecret: demo-tls
+
+image:
+  repository: abp/demo-app-authserver
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}
+    

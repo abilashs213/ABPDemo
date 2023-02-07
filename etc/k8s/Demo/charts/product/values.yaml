@@ -1,0 +1,27 @@
+config:
+  selfUrl: # https://demo-st-product
+  corsOrigins: #
+  connectionStrings:
+    productService: #
+    administrationService: #
+    saasService: #
+  authServer:
+    authority: # http://demo-st-authserver
+    requireHttpsMetadata: # "false"
+    swaggerClientId: WebGateway_Swagger
+  dotnetEnv: Staging
+  redisHost: #
+  rabbitmqHost: #
+  elasticsearchUrl: #
+  stringEncryptionDefaultPassPhrase: gsKnGZ041HLL4IM8
+
+ingress:
+  host: demo-st-product
+  tlsSecret: demo-tls
+
+image:
+  repository: abp/demo-service-product
+  tag: latest
+  pullPolicy: IfNotPresent
+
+env: {}      

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <RootNamespace>ABP.Demo.IdentityService</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ABP.Demo.IdentityService.Application.Contracts\ABP.Demo.IdentityService.Application.Contracts.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.Identity.Pro.HttpApi" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.OpenIddict.Pro.HttpApi" Version="7.0.1" />
+        <PackageReference Include="Volo.Abp.Account.Pro.Admin.HttpApi" Version="7.0.1" />
+    </ItemGroup>
+
+</Project>
